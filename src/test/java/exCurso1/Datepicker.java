@@ -1,0 +1,23 @@
+package exCurso1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Datepicker {
+    public static void main(String[] args)  {
+        System.setProperty("wobdriver.chrome.driver", "C:/Users/ana.gocthel/chromeDriven/chromedriver.exe");
+
+        WebDriver driver = new ChromeDriver();
+
+        driver.get("https://formy-project.herokuapp.com/datepicker");
+
+        WebElement dateField = driver.findElement((By.id("datepicker")));
+        dateField.sendKeys("04/05/2020");
+        dateField.sendKeys(Keys.RETURN);
+
+        driver.quit();
+    }
+}

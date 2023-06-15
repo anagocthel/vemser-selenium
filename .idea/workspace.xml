@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675ff9df-57e4-4d5d-a91c-dfa3bb708c1c" name="Changes" comment="" />
+    <list default="true" id="675ff9df-57e4-4d5d-a91c-dfa3bb708c1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exCurso1/Autocomplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exCurso1/Datepicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exCurso1/DragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exCurso1/ExecuteJavascript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exCurso1/RadioButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exCurso1/ScrollElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exCurso1/SwitchToActiveWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exCurso1/SwitchToAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/login/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PrimeiroTesteSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exCurso1/PrimeiroTesteSelenium.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/QA/vemser-pessoaapi",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -40,17 +59,78 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="PrimeiroTesteSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrimeiroTesteSelenium" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\QA\vemser-seleniumapi\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginTests.testSuccessfulLogin">
+    <configuration name="BaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.BaseTest" />
       <module name="vemser-seleniumapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Datepicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exCurso1.Datepicker" />
+      <module name="vemser-seleniumapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
+      <module name="vemser-seleniumapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioButtons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exCurso1.RadioButtons" />
+      <module name="vemser-seleniumapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.testSuccessfulLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vemser-seleniumapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeiroTesteSelenium" />
+        <item itemvalue="JUnit.LoginTests.testSuccessfulLogin" />
+        <item itemvalue="Application.LoginTests" />
+        <item itemvalue="Application.BaseTest" />
+        <item itemvalue="Application.RadioButtons" />
+        <item itemvalue="Application.Datepicker" />
       </list>
     </recent_temporary>
   </component>
